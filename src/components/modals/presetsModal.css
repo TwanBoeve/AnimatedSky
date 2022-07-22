@@ -1,0 +1,33 @@
+.modal-preset-wrappers {
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+}
+
+.ant-modal-body .preset-culture {
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.modal-preset {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-preset:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.modal-preset .icon {
+    width: 15px;
+    height: 15px;
+    opacity: 0.6;
+}
+
+.modal-preset .icon:hover {
+    opacity: 0.9;
+}

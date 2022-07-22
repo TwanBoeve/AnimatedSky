@@ -1,0 +1,16 @@
+.modal-closer {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 15px;
+    width: 15px;
+    opacity: 0.6;
+}
+
+.modal-closer:hover {
+    opacity: 0.9;
+}
+
+.ant-modal-body {
+    padding-left: 50px;
+}

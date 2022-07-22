@@ -1,0 +1,20 @@
+.menu-header {
+    padding: 10px 25px 10px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11pt;
+}
+
+.menu-header .icon {
+    height: 15px;
+    opacity: 0.6;
+}
+
+.menu-header .icon:hover {
+    opacity: 0.9;
+}
+
+.menu-header .icon-wrapper .icon:not(:last-child) {
+    margin-right: 10px;
+}

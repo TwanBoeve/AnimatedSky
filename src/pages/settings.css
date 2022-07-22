@@ -1,0 +1,90 @@
+.title {
+    font-size: 49px;
+}
+
+.settings {
+    height: 100%;
+    padding-top: 50px;
+    padding-left: 125px;
+    padding-right: 275px;
+}
+
+.settings .options hr {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.options {
+    font-size: 19pt;
+}
+
+.title-bar {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.title-bar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.return-arrow {
+    height: 25px;
+    opacity: 0.6;
+    margin-right: 15px;
+}
+
+.return-arrow:hover {
+    opacity: 0.9;
+}
+
+.options {
+    padding-left: 30px;
+    font-size: 17pt;
+}
+
+.options > *:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.import-exporter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.import-exporter input {
+    display: none;
+}
+
+.import-export-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+.import-exporter .action-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 2px;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    width: 150px;
+    opacity: 0.7;
+}
+
+.import-exporter .action-button:hover {
+    opacity: 0.9;
+}

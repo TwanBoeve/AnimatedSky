@@ -1,0 +1,22 @@
+.side-menu {
+    height: 100%;
+    z-index: 5;
+    position: relative;
+}
+
+.side-menu > * {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-menu .menu-header {
+    flex-basis: 30px;
+}
+
+.side-menu .list {
+    padding-left: 35px;
+    padding-top: 20px;
+    height: 100%;
+    overflow-y: scroll;
+}

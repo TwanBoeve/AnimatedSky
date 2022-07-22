@@ -1,0 +1,21 @@
+.general-switch {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.switch-wrapper {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+/*.general-dropdown .dropdown-toggle {*/
+/*    width: 400px;*/
+/*    border-radius: 3px;*/
+/*}*/
+
+/*.general-dropdown .dropdown-menu {*/
+/*    width: 400px;*/
+/*    font-size: 19px;*/
+/*}*/

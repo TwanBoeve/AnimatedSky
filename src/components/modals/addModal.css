@@ -1,0 +1,92 @@
+.ant-modal-body {
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ant-modal-body * {
+    font-size: 17px;
+}
+
+.ant-modal-body .title {
+    font-size: 31pt;
+    display: block;
+}
+
+.ant-modal-body input::placeholder {
+    opacity: 0.8;
+}
+
+.ant-modal-body .input-bar {
+    all: unset;
+    width: 95%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.ant-modal-body .culture-lister {
+    flex: 1;
+    overflow-y: scroll;
+    margin-bottom: 15px;
+    margin-right: 50px;
+}
+
+.ant-modal-body .indicators {
+    margin-right: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.ant-modal-body .indicators span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    width: 100px;
+}
+
+.ant-modal-body .option-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.ant-modal-body .checkboxes-wrapper {
+    display: flex;
+}
+
+.ant-modal-body .checkbox-wrapper {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.ant-modal-body .modal-buttons-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.ant-modal-body .modal-buttons-wrapper button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+
+    width: 150px;
+    border-radius: 3px;
+    opacity: 0.8;
+}
+
+.ant-modal-body .modal-buttons-wrapper button:hover {
+    opacity: 1;
+}
+
+.ant-modal-body .modal-buttons-wrapper button:not(:last-child) {
+    margin-left: 15px;
+}

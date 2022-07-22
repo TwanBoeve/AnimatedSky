@@ -1,0 +1,32 @@
+.preset-wrapper {
+    display: flex;
+    padding-right: 15px;
+    align-items: center;
+}
+
+.preset-wrapper:nth-child(n + 2) {
+    margin-top: 15px;
+}
+
+.preset {
+    display: flex;
+    align-items: center;
+    font-size: 11pt;
+    cursor: pointer;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    outline: inherit;
+    width: 100%;
+    text-align: left;
+}
+
+.remove-preset {
+    height: 15px;
+    opacity: 0.6;
+}
+
+.remove-preset:hover {
+    opacity: 0.9;
+}

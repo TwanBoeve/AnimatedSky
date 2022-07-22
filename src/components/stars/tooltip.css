@@ -1,0 +1,5 @@
+.vis-tooltip {
+    position: absolute;
+    visibility: hidden;
+    z-index: 5;
+}

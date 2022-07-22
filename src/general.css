@@ -1,0 +1,75 @@
+:root {
+    --main-color: rgb(16,41,65);
+}
+
+body {
+    margin: 0;
+}
+
+body, .page, #root {
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+/* Toggle Switch */
+
+.form-check-input {
+    width: 3rem !important;
+    height: 1.5rem;
+    box-shadow: none !important;
+    margin: 0;
+}
+
+.form-check-input:not(:checked) {
+    border-color: darkgrey;
+    background-image: url("images/SwitchCircle.svg")  !important;
+}
+
+.form-check-input:checked {
+    /*background-color: var(--main-color);*/
+    background-color: dimgray;
+    border-color: white;
+}
+
+.form-label {
+    margin: 0 !important;
+    text-overflow: ellipsis;
+}
+
+
+/* SideMenu */
+
+.nav-link:focus, .nav-link:hover {
+    /*color: rgb(16,41,65) !important;*/
+    color: var(--main-color);
+}
+
+.nav-link {
+    color: darkgrey;
+}
+
+
+/* Fancy scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #333;
+    border-radius: 3px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background: #999;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

@@ -1,0 +1,23 @@
+.general-slider {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.general-slider .label {
+    flex: 1;
+}
+
+.general-slider .controller {
+    width: 400px;
+    display: flex;
+}
+
+.general-slider .controller .slider {
+    width: 300px;
+}
+
+.general-slider .controller .inputer {
+    width: 75px;
+    margin-left: 25px;
+}
